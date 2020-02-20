@@ -1,12 +1,7 @@
-const _ = require('lodash')
+const sockMerchant = require('./warm-up/sockMerchant')
 
-const numbers = [22, 33, 54, 67, 12, 23, 45, 67, 1, 9, 65]
+const colorsOfSocks = [10, 20, 20, 10, 10, 30, 50, 10, 20]
+const numberOfSocks = colorsOfSocks.length
 
-_.each(numbers, (element) => {
-  console.log(element)
-})
-
-numbers.forEach((element) => {
-  console.log(element)
-})
+console.log(sockMerchant(colorsOfSocks, numberOfSocks))
 
