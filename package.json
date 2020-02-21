@@ -4,8 +4,8 @@
   "description": "several algorithms with javascript",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": ""
+    "start": "node ./src/index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,7 @@
   },
   "homepage": "https://github.com/jesustorres38/algorithms#readme",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
 }
